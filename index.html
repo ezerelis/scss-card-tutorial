@@ -13,13 +13,16 @@
     />
     <title>Document</title>
   </head>
-  <body class="bg-primary d-flex container-fluid">
-    <div id="dard" class="bg-secondary d-flex p-5 col-6">
-      <div id="card-text">
+  <body
+    class="bg-secondary d-flex container-fluid justify-content-center align-items-center min-vh-100 text-white"
+  >
+    <div id="dard" class="bg-dark d-flex rounded-3">
+      <div id="card-text" class="col-6 p-5 d-flex flex-column">
+        <div class="flex-fill">
         <h1>Get insights that help your business grow.</h1>
         <p>
           It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
+          readable content of a page when looking at its layout. The point of 
           using Lorem Ipsum is that it has a more-or-less normal distribution of
           letters, as opposed to using 'Content here, content here', making it
           look like readable English. Many desktop publishing packages and web
@@ -27,24 +30,26 @@
           search for 'lorem ipsum' will uncover many web sites still in their
           infancy. Various versions have evolved over the years, sometimes by
           accident, sometimes on purpose (injected humour and the like).
+        </div>
         </p>
-        <div id="stats">
-          <div>
-            <p>10k+</p>
-            <p>COMPANIES</p>
+        <div id="stats" class="d-flex justify-content-between">
+          <div class="d-flex flex-column align-items-center">
+            <p class="fw-bold fs-2">10k+</p>
+            <p class="fw-bold fs-2">COMPANIES</p>
           </div>
-          <div>
-            <p>314</p>
-            <p>TEMPLATES</p>
+          <div class="d-flex flex-column align-items-center">
+            <p class="fw-bold fs-2">314</p>
+            <p class="fw-bold fs-2">TEMPLATES</p>
           </div>
-          <div>
-            <p>12M+</p>
-            <p>QUERIES</p>
+          <div class="d-flex flex-column align-items-center">
+            <p class="fw-bold fs-2">12M+</p>
+            <p class="fw-bold fs-2">QUERIES</p>
           </div>
         </div>
       </div>
-      <div id="card-image" class="col-6">
-        <img class="img-fluid"
+      <div id="card-image" class="col-6 overflow-hidden rounded-end">
+        <img
+          class="img-fluid col-12 h-100"
           src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
           alt="office people"
         />
